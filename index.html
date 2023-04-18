@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="overlay">
+            <div class="container">
+                <div class="header">
+                    <h1 class="title">Регистрация</h1>
+                    <div class="close">&times;</div>
+                </div>
+                <div class="content">
+                    <p class="descr">Ваши персональные данные в безопасности, мы не передаем информацию третьим лицам.</p>
+                    <div class="inputs">
+                        <div class="input-wrapper">
+                            <label for="name">Имя</label>
+                            <input type="text" class="input" id="name" placeholder="Введите имя">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="surname">Фамилия</label>
+                            <input type="text" class="input" id="surname" placeholder="Введите фамилию">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="date">Дата рождения</label>
+                            <input type="date" class="input" id="date" >
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" class="input" id="phone" placeholder="Введите номер телефона">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="email">Email</label>
+                            <input type="email" class="input" id="email" placeholder="Введите email">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="password">Пароль</label>
+                            <input type="password" class="input" id="password" placeholder="Введите пароль">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="repeatPassword">Повторите пароль</label>
+                            <input type="password" class="input" id="repeatPassword" placeholder="Введите пароль">
+                        </div>
+    
+                    </div>
+
+                    <div class="radioGroup">
+                        <div class="radio-wrapper">
+                            <input type="radio" class="input" id="employer" value="employer" name="radio" checked>
+                            <label for="employer">Я являюсь работодателем</label>
+                        </div>
+                        <div class="radio-wrapper">
+                            <input type="radio" class="input" id="applicant" value="applicant" name="radio">
+                            <label for="applicant">Я являюсь соискателем</label>
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" class="input" id="checkbox">
+                        <label for="checkbox">Я соглашаюсь с <a href="" class="policy">политикой конфиденциальности</a> </label>
+                    </div>
+
+
+
+                    <div class="btnGroup">
+                        <button class="btn">Сохранить</button>
+                        <button class="btn">Отменить</button>
+                    </div>
+
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+</body>
+</html>
